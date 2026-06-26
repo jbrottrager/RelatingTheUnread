@@ -1,0 +1,42 @@
+# Python dependencies for RelatingTheUnread
+# Install with: pip install -r requirements.txt
+#
+# Versions are not pinned upstream in this repo; if you need an exact
+# reproducible environment, run `pip freeze > requirements-lock.txt`
+# after installing and commit that alongside this file.
+
+# Data handling
+pandas
+numpy
+scipy
+
+# NLP / embeddings (03_embeddingLitHist, 04_modellingLitHist)
+gensim
+spacy
+spacy-transformers
+nltk
+
+# Machine learning / clustering
+scikit-learn
+
+# Network analysis (04_modellingLitHist, 05_comparingSystems)
+networkx
+mantel
+
+# Entity disambiguation (01_canonCorpusBeyond/NER)
+thefuzz
+python-Levenshtein
+qwikidata
+beautifulsoup4
+lxml
+
+# HTTP / scraping utilities
+requests
+
+# Parallelism / progress
+joblib
+tqdm
+
+# Plotting
+matplotlib
+seaborn
